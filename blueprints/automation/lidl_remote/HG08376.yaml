@@ -1,7 +1,7 @@
 blueprint:
   source_url: https://github.com/chrissorius/homeassistant/blueprints/automation/HG08376.yaml
-  name: ZHA - Lidl 4Button Remote Switch - TYZB01_hww2py6b
-  description: Automate your Lidl/LivarnoLux 4Button Remote Switch using ZHA events. (TYZB01_hww2py6b)
+  name: ZHA - Lidl 4Button Remote Switch - TYZB01_bngwdjsr
+  description: Automate your Lidl/LivarnoLux 4Button Remote Switch using ZHA events. (TYZB01_bngwdjsr)
   domain: automation
   input:
     Lidl_4Button_Remote_switch:
@@ -10,7 +10,7 @@ blueprint:
       selector:
         device:
           integration: zha
-          manufacturer: _TYZB01_hww2py6b
+          manufacturer: _TYZB01_bngwdjsr
           multiple: false
     button_one_short_press:
       name: Single Press
